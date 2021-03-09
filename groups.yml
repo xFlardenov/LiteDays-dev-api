@@ -1,0 +1,230 @@
+# Стандартный донат игрока (Игрок)
+default:
+  prefix: '&7'
+  displayname: 'Игрок'
+  color: '7'
+  booster: 1.0
+  subgroups: []
+  permissions:
+  - '!minecraft.command.*'
+  - '!build.enable'
+  - 'default.use'
+  - 'build.disable'
+  - 'bukkit.command.plugins'
+# Донатерские услуги (Привилегии)
+vip:
+  prefix: '&a&lVIP &a'
+  displayname: 'Vip'
+  color: 'a'
+  booster: 1.2
+  subgroups:
+  - 'default'
+  permissions:
+  - 'vip.use'
+master:
+  prefix: '&6&lMATSER &6'
+  displayname: 'Mater'
+  color: '6'
+  booster: 1.3
+  subgroups:
+  - 'default'
+  - 'vip'
+  permissions:
+  - 'master.use'
+  - 'donatechat.use'
+pro:
+  prefix: '&d&lPRO &d'
+  displayname: 'Pro'
+  color: '6'
+  booster: 1.5
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  permissions:
+  - 'pro.use'
+  - 'prefix.use'
+  - 'prefix.color.*'
+magic:
+  prefix: '&5&lMAGIC &5'
+  displayname: 'Magic'
+  color: '5'
+  booster: 2.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  permissions:
+  - 'magic.use'
+dropper:
+  prefix: '&3DROPPER &3'
+  displayname: 'Dropper'
+  color: '3'
+  booster: 2.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  permissions:
+  - 'dropper.use'
+  - 'lobby.doublejump'
+youtube:
+  prefix: '&e&lYOUTUBE &e'
+  displayName: 'Ютубер'
+  color: 'e'
+  booster: 3.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  permissions:
+  - 'youtube.use'
+  - 'api.command.stream'
+# Привилегии персонала (Стафф)
+builder:
+  prefix: '&b&lBUILDER &b'
+  displayName: 'Строитель'
+  color: 'b'
+  booster: 1.5
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  permissions:
+  - 'build.use'
+  - 'build.enable'
+  - 'staffchat.use'
+helper:
+  prefix: '&2&lHELPER &2'
+  displayName: 'Помощник'
+  color: '2'
+  booster: 1.7
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  permissions:
+  - 'helper.use'
+  - 'staffchat.use'
+  - 'bansystem.unmute'
+  - 'bansystem.mute'
+moder:
+  displayName: '&9&lMODER &9'
+  booster: 1.8
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  permissions:
+  - 'moder.use'
+  - 'staffchat.use'
+  - 'bansystem.unmute'
+  - 'bansystem.mute'
+  - 'bansystem.ban'
+  - 'bansystem.unban'
+  - '!disgaise.use'
+hmoder:
+  displayName: '&9&lH-MODER &9'
+  booster: 2.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  - 'helper'
+  - 'moder'
+  permissions:
+  - 'hmoder.use'
+  - 'staffchat.use'
+  - 'bansystem.unmute'
+  - 'bansystem.mute'
+  - 'bansystem.ban'
+  - 'bansystem.unban'
+  - 'disgaise.use'
+  - 'testing.use'
+  - 'playerinfo.use'
+  - 'vanish.use'
+admin:
+  displayName: '&c&lADMIN &c'
+  booster: 2.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  - 'youtube'
+  - 'helper'
+  - 'moder'
+  - 'hmoder'
+  permissions:
+  - 'admin.use'
+  - 'staffchat.use'
+  - 'testing.use
+  - 'group.use'
+  - 'group.migrate'
+  - 'group.give'
+  - 'group.remove'
+developer:
+  displayName: '&2&lDEV &2'
+  booster: 5.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  - 'youtube'
+  - 'helper'
+  - 'moder'
+  - 'builder'
+  - 'hbuilder'
+  - 'hmoder'
+  - 'admin'
+  permissions:
+  - 'dev.use'
+  - 'devperms.give'
+  - 'minecraft.command.*'
+# Привилегия Владелец проекта
+owner:
+  displayName: '&4&lOWNER &4'
+  booster: 5.0
+  subgroups:
+  - 'default'
+  - 'vip'
+  - 'master'
+  - 'pro'
+  - 'magic'
+  - 'dropper'
+  - 'youtube'
+  - 'helper'
+  - 'moder'
+  - 'builder'
+  - 'hbuilder'
+  - 'hmoder'
+  - 'admin'
+  - 'developer'
+  permissions:
+  - 'owner.use'
+  - 'group.*'
+  - 'lobby.function.*'
+  - 'bansystem.*'
+    
