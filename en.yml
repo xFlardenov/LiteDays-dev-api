@@ -1,0 +1,80 @@
+ERROR_COMMAND: '§cError, use - %s'
+
+COOLDOWN: '§cPlease wait %s before next use'
+
+NO_FOUND_PLAYER: '§cError, player %s §cnot found'
+NO_NEVER_PLAYED: '§cError, player %s never played on our server before'
+
+SUBCOMMAND_HELP: 'List of commands for §e%s§r:'
+
+TIME_DAY_1:
+- 'day'
+- ''
+- 's'
+- 's'
+TIME_SECOND_2:
+- 'second'
+- ''
+- 's'
+- 's'
+TIME_HOURS_1:
+- 'hour'
+- ''
+- 's'
+- 's'
+TIME_MINUTES_1:
+- 'minute'
+- ''
+- 's'
+- 's'
+TIME_MINUTES_2:
+- 'minute'
+- ''
+- 's'
+- 's'
+MONEY_1:
+- 'money'
+- ''
+- 's'
+- 's'
+GOLD_1:
+- 'gold'
+- ''
+- 's'
+- 's'
+
+BALANCE: 'Your account has §e%s §r%s and §6%s §r%s'
+
+GROUP_HELP:
+  - ' §7/group set <player name> <group> §f- update group'
+  - ' §7/group migrate <old name> <new name> §f- transfer group'
+GROUP_ALREADY_DEFAULT: '§cError, player %s §chas no group'
+GROUP_MIGRATES_BROADCAST: 'Player group %s §rwas successfully transferred to %s'
+GROUP_CHANGES_BROADCAST: '%s §rchanged the group of player %s §rto %s'
+GROUP_CHANGE: 'Group %s §rwas successfully changed to the player %s'
+PLAYER_ALREADY_GROUP: '§cError, player %s §calready has this group'
+
+HIDER_ENABLE_NAME: '§aShow players'
+HIDER_ENABLE_LORE:
+- '§7Use this item,'
+- '§7to show players'
+HIDER_DISABLE_NAME: '§cHide players'
+HIDER_DISABLE_LORE:
+- '§7Use this item,'
+- '§7to hide players'
+
+STAFFCHAT_ENABLED: '%s §rturned on staff chat'
+STAFFCHAT_DISABLED: '%s §rdisabled staff chat'
+
+DONATECHAT_FORMAT: '§6Donate chat §8| §r%s §8» §7%s'
+STAFFCHAT_FORMAT: '§cStaff chat §8| §r%s §8» §7%s'
+
+BOARD_GROUP: 'Status'
+BOARD_MONEY: 'Money'
+BOARD_GOLD: 'Gold'
+BOARD_VK: ' Group VK: '
+BOARD_URLS: 'Полезные ссылки'
+BOARD_SITE: ' Shop'
+BOARD_BUSTER: 'Active boosters'
+BOARD_NO_BUSTER: ' Not found..'
+BOARD_LEVEL: 'Level'
